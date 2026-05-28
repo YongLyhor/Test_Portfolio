@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,12 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('SctLgIMBzXL1jBvs3');
+    </script>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -22,7 +28,7 @@
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <!-- <li><a href="#blog" class="nav-link">Blog</a></li> -->
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="nav-toggle">
@@ -45,8 +51,10 @@
                 <div class="hero-text">
                     <h1>Hi, I'm <span class="highlight">YONG Lyhor</span>, a</h1>
                     <h2 class="typing-text">Full Stack Developer</h2>
-                    <p>Passionate Junior Data Scientist and full-stack developer  specializing in modern web technologies and AI solutions. Based in Cambodia, I create innovative digital experiences and intelligent data-driven applications.</p>
-                    
+                    <p>Passionate Junior Data Scientist and full-stack developer specializing in modern web technologies
+                        and AI solutions. Based in Cambodia, I create innovative digital experiences and intelligent
+                        data-driven applications.</p>
+
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn-primary">View My Work</a>
                         <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -82,7 +90,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="hero-image">
                     <div class="image-container">
                         <div class="profile-card">
@@ -91,11 +99,12 @@
                                 <div class="status-indicator"></div>
                             </div>
                             <h3>Nice to meet you,<br>I'm YONG Lyhor</h3>
-                            <p>Junior Data Scientist and Full-stack developer with a passion for creating digital solutions and AI-powered applications.</p>
+                            <p>Junior Data Scientist and Full-stack developer with a passion for creating digital
+                                solutions and AI-powered applications.</p>
                         </div>
                         <div class="floating-elements">
                             <div class="code-snippet">
-                                 <!-- <div class="code-header">
+                                <!-- <div class="code-header">
                                     <div class="dots">
                                         <span></span>
                                         <span></span>
@@ -104,9 +113,9 @@
                                 </div>  -->
                                 <div class="code-content">
                                     <div class="line"><span class="keyword">const</span> developer = {</div>
-                                    <div class="line">  name: <span class="string">"YONG Lyhor"</span>,</div>
-                                    <div class="line">  role: <span class="string">"Full Stack Dev"</span>,</div>
-                                    <div class="line">  location: <span class="string">"Cambodia"</span></div>
+                                    <div class="line"> name: <span class="string">"YONG Lyhor"</span>,</div>
+                                    <div class="line"> role: <span class="string">"Full Stack Dev"</span>,</div>
+                                    <div class="line"> location: <span class="string">"Cambodia"</span></div>
                                     <div class="line">};</div>
                                 </div>
                             </div>
@@ -129,27 +138,31 @@
                 <h2>About Me</h2>
                 <p>Get to know more about my background and expertise</p>
             </div>
-            
+
             <div class="about-content">
                 <div class="about-text">
                     <h3>I'm a passionate Junior Data Scientist and Developer</h3>
-                    <p>I enjoy building innovative digital solutions using modern technologies and continuously improving my skills through personal projects and learning experiences.</p>
-                    
-                    <p>Based in Cambodia, I am eager to apply technology to solve real-world problems and create meaningful digital experiences while growing as a developer and data professional.</p>
-                    
+                    <p>I enjoy building innovative digital solutions using modern technologies and continuously
+                        improving my skills through personal projects and learning experiences.</p>
+
+                    <p>Based in Cambodia, I am eager to apply technology to solve real-world problems and create
+                        meaningful digital experiences while growing as a developer and data professional.</p>
+
                     <div class="about-highlights">
                         <div class="highlight-item">
                             <i class="fas fa-laptop-code"></i>
                             <div>
                                 <h4>Full Stack Development</h4>
-                                <p>Experience in modern web technologies including React.js, Java Spring Boot, and in the future i want to do for cloud deployment</p>
+                                <p>Experience in modern web technologies including React.js, Java Spring Boot, and in
+                                    the future i want to do for cloud deployment</p>
                             </div>
                         </div>
                         <div class="highlight-item">
                             <i class="fas fa-brain"></i>
                             <div>
                                 <h4>Data Science & AI</h4>
-                                <p>Proficient in Python, Machine Learning, Deep Learning, and AI application development</p>
+                                <p>Proficient in Python, Machine Learning, Deep Learning, and AI application development
+                                </p>
                             </div>
                         </div>
                         <div class="highlight-item">
@@ -160,10 +173,10 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <a href="#contact" class="btn btn-primary">Let's Work Together</a>
                 </div>
-                
+
                 <div class="about-image">
                     <div class="experience-card">
                         <div class="card-header">
@@ -200,7 +213,7 @@
                 <h2>My Skills</h2>
                 <p>Technologies and tools I work with</p>
             </div>
-            
+
             <div class="skills-container">
                 <div class="skill-category">
                     <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
@@ -287,27 +300,27 @@
                             <i class="fas fa-chart-pie"></i>
                             <span>Power BI</span>
                             <div class="skill-level" data-level="70"></div>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Matplotlib</span>
-                        <div class="skill-level" data-level="70"></div>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-chart-area"></i>
-                        <span>Seaborn</span>
-                        <div class="skill-level" data-level="73"></div>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-project-diagram"></i>
-                        <span>Plotly</span>
-                        <div class="skill-level" data-level="76"></div>
-                    </div>
-                    <div class="skill-item">
-                        <i class="fas fa-file-excel"></i>
-                        <span>Excel</span>
-                        <div class="skill-level" data-level="78"></div>
-                    </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Matplotlib</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-area"></i>
+                            <span>Seaborn</span>
+                            <div class="skill-level" data-level="73"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Plotly</span>
+                            <div class="skill-level" data-level="76"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Excel</span>
+                            <div class="skill-level" data-level="78"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -373,17 +386,19 @@
                 <h2>Featured Projects</h2>
                 <p>Some of my recent work and professional projects</p>
             </div>
-            
+
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Coffee Aroma Platform">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+                            alt="Coffee Aroma Platform">
                         <div class="project-overlay">
                             <div class="project-links">
                                 <a href="#" class="project-link" title="View Live">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="https://github.com/YongLyhor/Coffee_Aroma_Spring_Boot" class="project-link" title="View Code">
+                                <a href="https://github.com/YongLyhor/Coffee_Aroma_Spring_Boot" class="project-link"
+                                    title="View Code">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -391,7 +406,8 @@
                     </div>
                     <div class="project-content">
                         <h3>Coffee Aroma Platform</h3>
-                        <p>Full-stack coffee ordering platform built with React.js, Spring Boot, and MySQL, featuring real-time order notifications, order management, and an admin dashboard.</p>
+                        <p>Full-stack coffee ordering platform built with React.js, Spring Boot, and MySQL, featuring
+                            real-time order notifications, order management, and an admin dashboard.</p>
                         <div class="project-tech">
                             <span>React.js</span>
                             <span>Spring Boot</span>
@@ -403,13 +419,15 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="AI Analytics Dashboard">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
+                            alt="AI Analytics Dashboard">
                         <div class="project-overlay">
                             <div class="project-links">
                                 <a href="#" class="project-link" title="View Live">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="https://github.com/YongLyhor/Image-Caption-Generator" class="project-link" title="View Code">
+                                <a href="https://github.com/YongLyhor/Image-Caption-Generator" class="project-link"
+                                    title="View Code">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -417,7 +435,8 @@
                     </div>
                     <div class="project-content">
                         <h3>Image Caption Generator (AI) </h3>
-                        <p>AI-powered image caption generator built with CNN + LSTM and DenseNet201 transfer learning, featuring automatic caption generation and a Streamlit web app.</p>
+                        <p>AI-powered image caption generator built with CNN + LSTM and DenseNet201 transfer learning,
+                            featuring automatic caption generation and a Streamlit web app.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>TensorFlow</span>
@@ -429,7 +448,8 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop" alt="Task Management App">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop"
+                            alt="Task Management App">
                         <div class="project-overlay">
                             <div class="project-links">
                                 <a href="#" class="project-link" title="View Live">
@@ -443,7 +463,8 @@
                     </div>
                     <div class="project-content">
                         <h3>Cambodia Job Market Dashboard</h3>
-                        <p>Data analytics dashboard built with Power BI, analyzing 900+ Cambodian job posts to visualize salary trends, in-demand skills, and top-paying industries.</p>
+                        <p>Data analytics dashboard built with Power BI, analyzing 900+ Cambodian job posts to visualize
+                            salary trends, in-demand skills, and top-paying industries.</p>
                         <div class="project-tech">
                             <span>Power BI</span>
                             <span>Excel</span>
@@ -455,13 +476,15 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=400&fit=crop" alt="Smart Agriculture System">
+                        <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=400&fit=crop"
+                            alt="Smart Agriculture System">
                         <div class="project-overlay">
                             <div class="project-links">
                                 <a href="#" class="project-link" title="View Live">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="https://github.com/KheangDS/Sign-Language-Detection" class="project-link" title="View Code">
+                                <a href="https://github.com/KheangDS/Sign-Language-Detection" class="project-link"
+                                    title="View Code">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -469,7 +492,8 @@
                     </div>
                     <div class="project-content">
                         <h3>Real-Time Sign Language Detection using YOLOv11</h3>
-                        <p>Real-time sign language detection system built with YOLOv11, trained on a custom dataset of 900+ images to recognize 10 gestures with 83% accuracy.</p>
+                        <p>Real-time sign language detection system built with YOLOv11, trained on a custom dataset of
+                            900+ images to recognize 10 gestures with 83% accuracy.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>YOLOv11</span>
@@ -481,13 +505,15 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=600&h=400&fit=crop" alt="Cryptocurrency Tracker">
+                        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=600&h=400&fit=crop"
+                            alt="Cryptocurrency Tracker">
                         <div class="project-overlay">
                             <div class="project-links">
                                 <a href="#" class="project-link" title="View Live">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="https://github.com/YongLyhor/RagKhmer-Tutor-Chatbot" class="project-link" title="View Code">
+                                <a href="https://github.com/YongLyhor/RagKhmer-Tutor-Chatbot" class="project-link"
+                                    title="View Code">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -495,7 +521,8 @@
                     </div>
                     <div class="project-content">
                         <h3>RagKhmer-Tutor Chatbot (LLMs)</h3>
-                        <p>AI chatbot built with GPT-4o and RAG, supporting Khmer and English question answering with multilingual retrieval and a Streamlit chat interface.</p>
+                        <p>AI chatbot built with GPT-4o and RAG, supporting Khmer and English question answering with
+                            multilingual retrieval and a Streamlit chat interface.</p>
                         <div class="project-tech">
                             <span>Streamlit</span>
                             <span>Python</span>
@@ -507,13 +534,15 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://www.redvector.com/wp-content/uploads/2018/01/learning-management-system.png" alt="Learning Management System">
+                        <img src="https://www.redvector.com/wp-content/uploads/2018/01/learning-management-system.png"
+                            alt="Learning Management System">
                         <div class="project-overlay">
                             <div class="project-links">
                                 <a href="#" class="project-link" title="View Live">
                                     <i class="fas fa-external-link-alt"></i>
                                 </a>
-                                <a href="https://github.com/YongLyhor/Ticket-Management-System-TMS-" class="project-link" title="View Code">
+                                <a href="https://github.com/YongLyhor/Ticket-Management-System-TMS-"
+                                    class="project-link" title="View Code">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -521,7 +550,9 @@
                     </div>
                     <div class="project-content">
                         <h3>Ticket Management System</h3>
-                        <p>Microservices-based ticket management system built with React.js and Spring Boot, featuring ticket tracking, user management, real-time collaboration, and scalable backend services.</p>
+                        <p>Microservices-based ticket management system built with React.js and Spring Boot, featuring
+                            ticket tracking, user management, real-time collaboration, and scalable backend services.
+                        </p>
                         <div class="project-tech">
                             <span>Java Spring</span>
                             <span>React.js</span>
@@ -531,7 +562,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="projects-footer">
                 <a href="https://github.com/yonglyhor" class="btn btn-primary" target="_blank">
                     <i class="fab fa-github"></i>
@@ -541,7 +572,7 @@
         </div>
     </section>
 
-    <!-- Blog Section -->
+    <!-- Blog Section
     <section id="blog" class="blog">
         <div class="container">
             <div class="section-header">
@@ -610,7 +641,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -619,12 +650,13 @@
                 <h2>Let's Work Together</h2>
                 <p>Ready to start your next project? Let's discuss how I can help bring your ideas to life</p>
             </div>
-            
+
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Get In Touch</h3>
-                    <p>I'm always interested in new opportunities and exciting projects. Whether you're a company looking to hire, or you're looking for a developer to work with, I'd love to hear from you.</p>
-                    
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you're a company
+                        looking to hire, or you're looking for a developer to work with, I'd love to hear from you.</p>
+
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
@@ -649,7 +681,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="social-links">
                         <a href="https://github.com/yonglyhor" target="_blank" title="GitHub">
                             <i class="fab fa-github"></i>
@@ -665,29 +697,29 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="contact-form-container">
                     <form class="contact-form" id="contact-form">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="subject">Subject</label>
                             <input type="text" id="subject" name="subject" required>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="message">Message</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        
+
                         <button type="submit" class="btn btn-primary">
                             <span>Send Message</span>
                             <i class="fas fa-paper-plane"></i>
@@ -702,58 +734,73 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-info">
+
+                <!-- Column 1 -->
+                <div class="footer-section">
                     <div class="footer-logo">
                         <i class="fas fa-code"></i>
                         <span>DevKh</span>
                     </div>
-                    <p>Full Stack Developer & Data Scientist based in Cambodia. Passionate about creating innovative digital solutions and AI-powered applications.</p>
+
+                    <p>
+                        Full Stack Developer & Data Scientist based in Cambodia.
+                        Passionate about creating innovative digital solutions and
+                        AI-powered applications.
+                    </p>
                 </div>
-                
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-section">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Data Science</a></li>
-                            <li><a href="#">AI Solutions</a></li>
-                            <li><a href="#">Consulting</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-section">
-                        <h4>Connect</h4>
-                        <div class="social-links">
-                            <a href="https://github.com/yonglyhor" target="_blank" title="GitHub">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/yong-lyhor-449b073b2/" target="_blank" title="LinkedIn">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="https://web.facebook.com/yong.lihor" target="_blank" title="Facebook">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="mailto:yonglyhor1004@email.com" title="Email">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                            
-                        </div>
+
+                <!-- Column 2 -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">AI Solutions</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="footer-section">
+                    <h4>Connect</h4>
+
+                    <div class="social-links">
+                        <a href="https://github.com/yonglyhor" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/yong-lyhor-449b073b2/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://web.facebook.com/yong.lihor" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="mailto:yonglyhor1004@email.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
+
             </div>
-            
+
             <div class="footer-bottom">
-                <p>&copy; 2026 YONG Lyhor. All rights reserved. Made with <i class="fas fa-heart"></i> in Cambodia</p>
+                <p>
+                    &copy; 2026 YONG Lyhor. All rights reserved.
+                    Made with <i class="fas fa-heart"></i> in Cambodia
+                </p>
             </div>
         </div>
     </footer>
@@ -774,20 +821,16 @@
                 <span class="close" onclick="closeLocationModal()">&times;</span>
             </div>
             <div class="modal-body">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4198.843065409815!2d104.89550541087388!3d11.5704027439993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109517388680e15%3A0x63057e6682968f5!2sInstitute%20of%20Technology%20of%20Cambodia!5e1!3m2!1sen!2skh!4v1760153926110!5m2!1sen!2skh" 
-                        width="100%" 
-                        height="400" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4198.843065409815!2d104.89550541087388!3d11.5704027439993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109517388680e15%3A0x63057e6682968f5!2sInstitute%20of%20Technology%20of%20Cambodia!5e1!3m2!1sen!2skh!4v1760153926110!5m2!1sen!2skh"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
                 <div class="location-info">
                     <h4>Institute of Technology of Cambodia</h4>
                     <p>Phnom Penh, Cambodia</p>
-                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4198.843065409815!2d104.89550541087388!3d11.5704027439993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109517388680e15%3A0x63057e6682968f5!2sInstitute%20of%20Technology%20of%20Cambodia!5e1!3m2!1sen!2skh!4v1760153926110!5m2!1sen!2skh" 
-                       target="_blank" 
-                       class="btn btn-primary">
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4198.843065409815!2d104.89550541087388!3d11.5704027439993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109517388680e15%3A0x63057e6682968f5!2sInstitute%20of%20Technology%20of%20Cambodia!5e1!3m2!1sen!2skh!4v1760153926110!5m2!1sen!2skh"
+                        target="_blank" class="btn btn-primary">
                         <i class="fas fa-external-link-alt"></i> Open in Google Maps
                     </a>
                 </div>
@@ -799,4 +842,5 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

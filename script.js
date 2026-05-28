@@ -354,7 +354,6 @@ class Portfolio {
         contactForm?.addEventListener('submit', async (e) => {
             e.preventDefault();
             
-            const formData = new FormData(contactForm);
             const submitBtn = contactForm.querySelector('button[type="submit"]');
             const originalText = submitBtn.innerHTML;
             
@@ -363,18 +362,19 @@ class Portfolio {
             submitBtn.disabled = true;
             
             try {
-                // Simulate form submission (replace with actual API call)
-                await this.simulateFormSubmission(formData);
+                await emailjs.sendForm(
+                    'service_nc6z1vk',
+                    'template_w7m0am6',
+                    contactForm
+                );
                 
-                // Show success message
                 this.showNotification('Message sent successfully!', 'success');
                 contactForm.reset();
                 
             } catch (error) {
-                // Show error message
+                console.error('EmailJS error:', error);
                 this.showNotification('Failed to send message. Please try again.', 'error');
             } finally {
-                // Reset button
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;
             }
